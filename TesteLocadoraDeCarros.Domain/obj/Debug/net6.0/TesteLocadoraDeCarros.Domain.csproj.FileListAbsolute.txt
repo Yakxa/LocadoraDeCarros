@@ -1,0 +1,11 @@
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.deps.json
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.pdb
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.AssemblyInfoInputs.cache
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.AssemblyInfo.cs
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\refint\TesteLocadoraDeCarros.Domain.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.pdb
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Domain.dll
