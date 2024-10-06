@@ -5,7 +5,11 @@ C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\o
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.AssemblyInfoInputs.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.AssemblyInfo.cs
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.sourcelink.json
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.dll
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\refint\TesteLocadoraDeCarros.Domain.dll
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.pdb
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Domain.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.runtimeconfig.json
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.csproj.AssemblyReference.cache
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Domain\obj\Debug\net6.0\TesteLocadoraDeCarros.Domain.genruntimeconfig.cache

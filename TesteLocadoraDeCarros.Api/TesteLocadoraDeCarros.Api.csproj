@@ -8,9 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.33" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.33" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.33" />
+
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TesteLocadoraDeCarros.Application\TesteLocadoraDeCarros.Application.csproj" />
+    <ProjectReference Include="..\TesteLocadoraDeCarros.Dal\TesteLocadoraDeCarros.Dal.csproj" />
     <ProjectReference Include="..\TesteLocadoraDeCarros.Domain\TesteLocadoraDeCarros.Domain.csproj" />
   </ItemGroup>
 

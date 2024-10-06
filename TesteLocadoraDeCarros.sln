@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteLocadoraDeCarros.Api", "TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api.csproj", "{26E98049-EF36-41F8-9030-FA3DFCD74DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteLocadoraDeCarros.Domain", "TesteLocadoraDeCarros.Domain\TesteLocadoraDeCarros.Domain.csproj", "{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteLocadoraDeCarros.Domain", "TesteLocadoraDeCarros.Domain\TesteLocadoraDeCarros.Domain.csproj", "{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteLocadoraDeCarros.Application", "TesteLocadoraDeCarros.Application\TesteLocadoraDeCarros.Application.csproj", "{5424A673-5661-4CE2-BA96-4E47F2DE4136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteLocadoraDeCarros.Application", "TesteLocadoraDeCarros.Application\TesteLocadoraDeCarros.Application.csproj", "{5424A673-5661-4CE2-BA96-4E47F2DE4136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteLocadoraDeCarros.Dal", "TesteLocadoraDeCarros.Dal\TesteLocadoraDeCarros.Dal.csproj", "{FCDD7FC2-89A4-47A5-8989-2949F4A56868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteLocadoraDeCarros.Dal", "TesteLocadoraDeCarros.Dal\TesteLocadoraDeCarros.Dal.csproj", "{FCDD7FC2-89A4-47A5-8989-2949F4A56868}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteLocadoraDeCarros.Api", "TesteLocadoraDeCarros.Api\TesteLocadoraDeCarros.Api.csproj", "{027F84C8-F8DA-40BA-AA38-EA094D154450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26E98049-EF36-41F8-9030-FA3DFCD74DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26E98049-EF36-41F8-9030-FA3DFCD74DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26E98049-EF36-41F8-9030-FA3DFCD74DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26E98049-EF36-41F8-9030-FA3DFCD74DEE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{FCDD7FC2-89A4-47A5-8989-2949F4A56868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDD7FC2-89A4-47A5-8989-2949F4A56868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDD7FC2-89A4-47A5-8989-2949F4A56868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027F84C8-F8DA-40BA-AA38-EA094D154450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027F84C8-F8DA-40BA-AA38-EA094D154450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027F84C8-F8DA-40BA-AA38-EA094D154450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027F84C8-F8DA-40BA-AA38-EA094D154450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
