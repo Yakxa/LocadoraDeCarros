@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteLocadoraDeCarros.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83b9887be80dc479c9f4ee20c151aeee8cee426")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a635e116813868729584c93211c59f40aae971e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteLocadoraDeCarros.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteLocadoraDeCarros.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

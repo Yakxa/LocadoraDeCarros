@@ -1,30 +1,26 @@
-﻿using System;
+﻿using Abp.Runtime.Validation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TesteLocadoraDeCarros.Domain.Validators.CarroValidators;
 
 namespace TesteLocadoraDeCarros.Domain.Aggregates
 {
     public class Carro
     {
-        public Guid Id { get; }
-        public string Marca { get; }
+        public Guid Id { get; set;  }
+        public string Marca { get; set;  }
         public string Modelo { get; set; }
         public int Ano { get; set; }
-        public bool Disponivel { get; set; } // Disponivel para aluguel ou não
+        public bool Disponivel { get; set; } 
         public decimal TaxaDiaria { get; set; }
         public decimal TaxaAtraso { get; set; }
         public ICollection<Aluguel> Alugueis { get; set; }
 
         public Carro(Guid id, string marca, string modelo, int ano, bool disponivel, decimal taxaDiaria, decimal taxaAtraso)
         {
-            if (string.IsNullOrEmpty(marca)) throw new ArgumentException("Marca é obrigatória");
-            if (string.IsNullOrEmpty(modelo)) throw new ArgumentException("Modelo é obrigatório");
-            if (ano < 1886 || ano > DateTime.Now.Year) throw new ArgumentException("Ano inválido");
-            if (taxaDiaria < 0) throw new ArgumentException("Taxa diária deve ser maior ou igual a zero");
-            if (taxaAtraso < 0) throw new ArgumentException("Taxa de atraso deve ser maior ou igual a zero");
-
             Id = id;
             Marca = marca;
             Modelo = modelo;

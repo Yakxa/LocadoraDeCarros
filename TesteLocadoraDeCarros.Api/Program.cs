@@ -1,5 +1,8 @@
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using TesteLocadoraDeCarros.Dal;
+using TesteLocadoraDeCarros.Domain.Validators.CarroValidators;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 

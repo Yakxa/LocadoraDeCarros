@@ -1,6 +1,8 @@
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Application.deps.json
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Application.runtimeconfig.json
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Application.dll
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Application.pdb
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.csproj.AssemblyReference.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.AssemblyInfoInputs.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.AssemblyInfo.cs
@@ -9,7 +11,5 @@ C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Applicat
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.dll
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\refint\TesteLocadoraDeCarros.Application.dll
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.pdb
-C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Application.dll
-C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Application.runtimeconfig.json
-C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.csproj.AssemblyReference.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.genruntimeconfig.cache
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Application.dll
