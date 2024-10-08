@@ -16,12 +16,7 @@ namespace TesteLocadoraDeCarros.Domain.Validators.CarroValidators
             RuleFor(c => c.Marca).NotEmpty().NotNull().MinimumLength(4).WithMessage("A marca deve ter pelo menos 4 caracteres");
             RuleFor(c => c.Modelo).NotEmpty().NotNull().MinimumLength(2).WithMessage("O modelo deve ter pelo menos 3 caracteres");
             RuleFor(c => c.Ano).GreaterThanOrEqualTo(1886).WithMessage("O ano deve ser maior que 1886");
-            // Regra de disponibilidade para QUANDO for criar o carro
-            RuleFor(c => c.Disponivel)
-                .Must((carro, disponibilidade) =>
-                    carro.Id == Guid.Empty && disponibilidade)
-                .WithMessage("O carro deve estar disponível ao ser criado.")
-                .When(carro => carro.Id == Guid.Empty);
+            
             // Regra de disponibilidade para QUANDO for atualizar o carro
             RuleFor(c => c.Disponivel)
                 .Must((carro, disponibilidade) =>

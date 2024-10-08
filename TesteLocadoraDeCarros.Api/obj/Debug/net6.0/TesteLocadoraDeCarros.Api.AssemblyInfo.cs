@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteLocadoraDeCarros.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a635e116813868729584c93211c59f40aae971e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26d81edb856cfad3690b2d80c6296d1ac7a34aef")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteLocadoraDeCarros.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteLocadoraDeCarros.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

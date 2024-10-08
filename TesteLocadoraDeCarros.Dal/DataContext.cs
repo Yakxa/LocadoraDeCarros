@@ -18,7 +18,6 @@ namespace TesteLocadoraDeCarros.Dal
         public DbSet<Aluguel> Alugueis { get; set; }
         public DbSet<Carro> Carros { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Contrato> Contratos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -39,9 +38,8 @@ namespace TesteLocadoraDeCarros.Dal
             {
                 entity.HasKey(a => a.Id);
                 entity.Property(a => a.Status).IsRequired();
-                entity.HasOne(a => a.Cliente).WithMany(c => c.Alugueis).HasForeignKey(a => a.ClienteId); // Relacionamento com Cliente
-                entity.HasOne(a => a.Contrato).WithOne(c => c.Aluguel).HasForeignKey<Aluguel>(a => a.ContratoId); // Um Contrato tem um Aluguel
-                entity.HasMany(a => a.Carros).WithMany(c => c.Alugueis); // Muitos para muitos entre Alugueis e Carros
+                entity.HasOne(a => a.Cliente).WithMany(c => c.Alugueis).HasForeignKey(a => a.ClienteId); 
+                entity.HasOne(a => a.Carro).WithMany(c => c.Alugueis); 
             });
 
             // Configuração para a entidade Cliente
@@ -51,15 +49,6 @@ namespace TesteLocadoraDeCarros.Dal
                 entity.Property(c => c.Nome).IsRequired();
                 entity.Property(c => c.Documento).IsRequired();
                 entity.HasMany(c => c.Alugueis).WithOne(a => a.Cliente); // Relação de um Cliente com muitos Alugueis
-            });
-
-            // Configuração para a entidade Contrato
-            modelBuilder.Entity<Contrato>(entity =>
-            {
-                entity.HasKey(c => c.Id);
-                entity.Property(c => c.DataInicio).IsRequired();
-                entity.Property(c => c.DataFim).IsRequired();
-                entity.HasOne(c => c.Aluguel).WithOne(a => a.Contrato); // Um Contrato tem um Aluguel
             });
         }
 

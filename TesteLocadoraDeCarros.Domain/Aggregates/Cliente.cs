@@ -8,42 +8,61 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates
 {
     public class Cliente
     {
-        public Guid Id { get; }
-        public string Nome { get; private set; }
-        public string Documento { get; private set; }
-        public ICollection<Aluguel> Alugueis { get; private set; }
-
-        public Cliente(Guid id, string nome, string documento)
+        private readonly List<Aluguel> _alugueis = new List<Aluguel>();
+        private Cliente()
         {
-            if (string.IsNullOrEmpty(nome)) throw new ArgumentException("Nome é obrigatório");
-            if (string.IsNullOrEmpty(documento)) throw new ArgumentException("Documento é obrigatório");
 
-            Id = id;
-            Nome = nome;
-            Documento = documento;
-            Alugueis = new List<Aluguel>();
         }
+        public Guid Id { get; private set; }
+        public string IdentityId { get; private set; }
+        public string Nome { get; private set; }
+        public int Idade { get; private set; }
+        public string Documento { get; private set; }
+        public IEnumerable<Aluguel> Alugueis { get { return _alugueis; } }
 
-        public Cliente()
+        // Método de fabricação do cliente
+        public static Cliente CreateCliente(string identityId, string nome, int idade, string documento)
         {
+            return new Cliente
+            {
+                IdentityId = identityId,
+                Nome = nome,
+                Idade = idade,
+                Documento = documento,
+            };
             
         }
 
-        public void AtualizarNome(string nome)
+
+
+        // Métodos públicos
+        public void AdicionarAluguel(Aluguel aluguel)
+        {
+            if (aluguel == null) throw new ArgumentNullException(nameof(aluguel), "O aluguel não pode ser nulo.");
+            _alugueis.Add(aluguel);
+        }
+
+        public void RemoverAluguel(Aluguel aluguel)
+        {
+            _alugueis.Remove(aluguel);
+        }
+
+        public void UpdateIdade(int novaIdade)
+        {
+            Idade = novaIdade;
+        }
+        
+
+        public void UpdateNome(string nome)
         {
             if (string.IsNullOrEmpty(nome)) throw new ArgumentException("Nome é obrigatório");
             Nome = nome;
         }
 
-        public void AtualizarDocumento(string documento)
+        public void UpdateDocumento(string documento)
         { 
             if (string.IsNullOrEmpty(documento)) throw new ArgumentException("Documento é obrigatório");
             Documento = documento;
-        }
-
-        public void AdicionarAluguel(Aluguel aluguel)
-        {
-            Alugueis.Add(aluguel);
         }
     }
 }

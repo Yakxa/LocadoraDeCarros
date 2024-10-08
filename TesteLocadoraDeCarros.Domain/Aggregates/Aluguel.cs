@@ -9,40 +9,23 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates
 {
     public class Aluguel
     {
+        private Aluguel()
+        { }
         public Guid Id { get; set; }
-        public Guid ContratoId { get; set; }
-        public Guid ClienteId { get; set; }
         public StatusAluguel Status {  get; set; }
 
         public Cliente Cliente { get; set; }
-        public Contrato Contrato { get; set; }
-        public ICollection<Carro> Carros { get; set; }
+        public Carro Carro { get; private set; }
 
-        public Aluguel(Guid id, Guid contratoId, Guid clienteId)
+        public static Aluguel CreateAluguel(Cliente cliente, Carro carro)
         {
-            if (clienteId == Guid.Empty) throw new ArgumentException("O ID do cliente é obrigatório");
-            if (contratoId == Guid.Empty) throw new ArgumentException("O ID do contrato é obrigatório");
-
-            Id = id;
-            ContratoId = contratoId;
-            ClienteId = clienteId;
-            Status = StatusAluguel.EmAndamento;
-            Carros = new List<Carro>();
-        }
-
-        public Aluguel()
-        {
-            
-        }
-
-        public void AdicionarCarros(Carro carro)
-        {
-            if (!carro.Disponivel)
+            return new Aluguel
             {
-                throw new InvalidOperationException("O carro não está disponível para aluguel.");
-            }
-            Carros.Add(carro);
-            carro.AdicionarAluguel(this);
+                Cliente = cliente,
+                Carro = carro,
+                Status = StatusAluguel.EmAndamento
+            };
+
         }
 
         public void Finalizar()
@@ -55,5 +38,17 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates
             Status = StatusAluguel.Cancelado;
         }
 
+        public void UpdateAluguel(Guid? clienteId = null, Guid? carroId = null)
+        {
+            if (clienteId.HasValue)
+            {
+                ClienteId = clienteId.Value;
+            }
+
+            if (carroId.HasValue)
+            {
+                CarroId = carroId.Value;
+            }
+        }
     }
 }
