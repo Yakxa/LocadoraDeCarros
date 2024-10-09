@@ -88,6 +88,12 @@
               "target": "Package",
               "version": "[6.0.33, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -180,10 +186,6 @@
               "target": "Package",
               "version": "[6.0.33, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.33, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -257,17 +259,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FluentValidation": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[11.10.0, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[11.10.0, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

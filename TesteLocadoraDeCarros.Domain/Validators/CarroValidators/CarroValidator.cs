@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TesteLocadoraDeCarros.Domain.Aggregates;
+using TesteLocadoraDeCarros.Domain.Aggregates.CarroAggregate;
 
 namespace TesteLocadoraDeCarros.Domain.Validators.CarroValidators
 {
@@ -18,11 +18,11 @@ namespace TesteLocadoraDeCarros.Domain.Validators.CarroValidators
             RuleFor(c => c.Ano).GreaterThanOrEqualTo(1886).WithMessage("O ano deve ser maior que 1886");
             
             // Regra de disponibilidade para QUANDO for atualizar o carro
-            RuleFor(c => c.Disponivel)
-                .Must((carro, disponibilidade) =>
-                    disponibilidade == true || disponibilidade == false)
-                .WithMessage("A disponibilidade deve ser true ou false ao atualizar.")
-                .When(carro => carro.Id != Guid.Empty);
+            //RuleFor(c => c.Disponivel)
+            //    .Must((carro, disponibilidade) =>
+            //        disponibilidade == true || disponibilidade == false)
+            //    .WithMessage("A disponibilidade deve ser true ou false ao atualizar.")
+            //    .When(carro => carro.Id != Guid.Empty);
 
             RuleFor(c => c.TaxaDiaria).GreaterThan(0).WithMessage("A taxa diária deve ser maior que zero");
             RuleFor(c => c.TaxaAtraso).GreaterThan(0).WithMessage("A taxa de atraso deve ser maior que zero");

@@ -4,23 +4,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TesteLocadoraDeCarros.Domain.Aggregates.UserProfileAggregate;
 using TesteLocadoraDeCarros.Domain.Validators.CarroValidators;
 
-namespace TesteLocadoraDeCarros.Domain.Aggregates
+namespace TesteLocadoraDeCarros.Domain.Aggregates.CarroAggregate
 {
     public class Carro
     {
         private Carro()
         { }
-        private readonly List<Aluguel> _alugueis = new List<Aluguel>();
+        private readonly List<CarroAluguel> _alugueis = new List<CarroAluguel>();
         public Guid Id { get; private set; }
         public string Marca { get; set; }
         public string Modelo { get; set; }
         public int Ano { get; set; }
-        public bool Disponivel { get; set; }
+        public StatusCarro Status { get; set; }
         public decimal TaxaDiaria { get; set; }
         public decimal TaxaAtraso { get; set; }
-        public IEnumerable<Aluguel> Alugueis { get { return _alugueis; } }
+        public IEnumerable<CarroAluguel> Alugueis { get { return _alugueis; } }
 
         // Método de fabricação do carro
         public static Carro CreateCarro(string marca, string modelo, int ano, decimal taxaDiaria, decimal taxaAtraso)
@@ -30,7 +31,7 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates
                 Marca = marca,
                 Modelo = modelo,
                 Ano = ano,
-                Disponivel = true,
+                Status = StatusCarro.Disponivel,
                 TaxaDiaria = taxaDiaria,
                 TaxaAtraso = taxaAtraso,
             };
@@ -40,38 +41,41 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates
 
 
         // Métodos públicos
-        public void Alugar() // Seta o status de Disponivel pra false
+        public void Alugar(Guid userId, DateTime dataInicio, DateTime dataFim) // Seta o status de Disponivel pra false
         {
-            if (!Disponivel)
+            if (Status != StatusCarro.Disponivel)
             {
-                throw new InvalidOperationException("Este carro não está disponível para alugar");
+                throw new InvalidOperationException("O carro não está disponível para aluguel.");
             }
-            Disponivel = false;
-        }
-
-        public void Devolver() // Seta o status de Disponível para true
-        {
-            if (Disponivel)
-            {
-                throw new InvalidOperationException("O carro já está disponível.");
-            }
-            Disponivel = true;
-        }
-
-        public void AdicionarAluguel(Aluguel aluguel)
-        {
-            if (aluguel == null) throw new ArgumentNullException(nameof(aluguel), "O aluguel não pode ser nulo.");
+            var aluguel = CarroAluguel.CriarAluguel(Id, userId, dataInicio, dataFim, TaxaDiaria);
             _alugueis.Add(aluguel);
+
+            Status = StatusCarro.Alugado;
         }
 
-        public void RemoveAluguel(Aluguel aluguel)
+        public void Devolver(Guid aluguelId)
         {
-            _alugueis.Remove(aluguel);
+            if (Status != StatusCarro.Alugado)
+            {
+                throw new InvalidOperationException("O carro não está alugado.");
+            }
+
+            // Encontra o aluguel correspondente e marca como finalizado
+            var aluguel = _alugueis.Find(a => a.AluguelId == aluguelId);
+            if (aluguel == null)
+            {
+                throw new InvalidOperationException("Aluguel não encontrado.");
+            }
+
+            aluguel.MarcarComoFinalizado();
+
+            // Atualiza o status do carro para "Disponível" após a devolução
+            Status = StatusCarro.Disponivel;
         }
 
-        public bool VerificarDisponibilidade()
+        public StatusCarro ObterStatusAtual()
         {
-            return Disponivel;
+            return Status;
         }
 
         public void UpdateMarca(string novaMarca)
