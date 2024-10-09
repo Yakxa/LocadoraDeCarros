@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.33">
@@ -27,6 +29,11 @@
     <ProjectReference Include="..\TesteLocadoraDeCarros.Application\TesteLocadoraDeCarros.Application.csproj" />
     <ProjectReference Include="..\TesteLocadoraDeCarros.Dal\TesteLocadoraDeCarros.Dal.csproj" />
     <ProjectReference Include="..\TesteLocadoraDeCarros.Domain\TesteLocadoraDeCarros.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Carros\Responses\" />
+    <Folder Include="Contracts\Carros\Requests\" />
   </ItemGroup>
 
 </Project>

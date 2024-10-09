@@ -99,3 +99,8 @@ C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\obj\
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\obj\Debug\net6.0\TesteLocadoraDeCarros.Api.pdb
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\obj\Debug\net6.0\TesteLocadoraDeCarros.Api.genruntimeconfig.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Api.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\bin\Debug\net6.0\MediatR.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

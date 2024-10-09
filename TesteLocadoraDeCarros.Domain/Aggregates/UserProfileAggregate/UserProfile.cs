@@ -17,8 +17,8 @@ namespace TesteLocadoraDeCarros.Domain.Aggregates.UserProfileAggregate
         public string Nome { get; private set; }
         public string Documento { get; private set; }
 
-        // Método de fabricação do cliente
-        public static UserProfile CreateCliente(string identityId, string nome, string documento)
+        // Método de fabricação do UserProfile
+        public static UserProfile CreateUserProfile(string identityId, string nome, string documento)
         {
             return new UserProfile
             {

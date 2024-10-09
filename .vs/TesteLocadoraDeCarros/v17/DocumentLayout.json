@@ -3,52 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.dal\\migrations\\20241009004540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|solutionrelative:testelocadoradecarros.dal\\migrations\\20241009004540_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.dal\\configurations\\carroaluguelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|solutionrelative:testelocadoradecarros.dal\\configurations\\carroaluguelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.domain\\aggregates\\carroaggregate\\carroaluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|solutionrelative:testelocadoradecarros.domain\\aggregates\\carroaggregate\\carroaluguel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.domain\\aggregates\\carroaggregate\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|solutionrelative:testelocadoradecarros.domain\\aggregates\\carroaggregate\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.domain\\aggregates\\userprofileaggregate\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|solutionrelative:testelocadoradecarros.domain\\aggregates\\userprofileaggregate\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.dal\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|solutionrelative:testelocadoradecarros.dal\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\contracts\\userprofile\\responses\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\contracts\\userprofile\\responses\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.dal\\configurations\\carroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|solutionrelative:testelocadoradecarros.dal\\configurations\\carroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\queryhandlers\\getuserprofilebyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\queryhandlers\\getuserprofilebyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.domain\\validators\\carrovalidators\\carrovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|solutionrelative:testelocadoradecarros.domain\\validators\\carrovalidators\\carrovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\contracts\\userprofile\\requests\\userprofilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\contracts\\userprofile\\requests\\userprofilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.domain\\aggregates\\carroaggregate\\statuscarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61AC7C2E-7CBF-42DF-8759-C5A8978A05A5}|TesteLocadoraDeCarros.Domain\\TesteLocadoraDeCarros.Domain.csproj|solutionrelative:testelocadoradecarros.domain\\aggregates\\carroaggregate\\statuscarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\queryhandlers\\getalluserprofilesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\queryhandlers\\getalluserprofilesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.dal\\configurations\\identityusertokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD7FC2-89A4-47A5-8989-2949F4A56868}|TesteLocadoraDeCarros.Dal\\TesteLocadoraDeCarros.Dal.csproj|solutionrelative:testelocadoradecarros.dal\\configurations\\identityusertokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\queries\\getalluserprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\queries\\getalluserprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\mappingprofiles\\userprofilemappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\mappingprofiles\\userprofilemappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027F84C8-F8DA-40BA-AA38-EA094D154450}|TesteLocadoraDeCarros.Api\\TesteLocadoraDeCarros.Api.csproj|solutionrelative:testelocadoradecarros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\queries\\getuserprofilebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\queries\\getuserprofilebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\userprofiles\\commandhandlers\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\userprofiles\\commandhandlers\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|c:\\users\\guilh\\source\\repos\\testelocadoradecarros\\testelocadoradecarros.application\\mappingprofiles\\userprofilemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5424A673-5661-4CE2-BA96-4E47F2DE4136}|TesteLocadoraDeCarros.Application\\TesteLocadoraDeCarros.Application.csproj|solutionrelative:testelocadoradecarros.application\\mappingprofiles\\userprofilemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarroController.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Controllers\\CarroController.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\Controllers\\CarroController.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Controllers\\CarroController.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\Controllers\\CarroController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAQwBEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:51:56.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241009004540_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Migrations\\20241009004540_InitialCreate.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Dal\\Migrations\\20241009004540_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Migrations\\20241009004540_InitialCreate.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Dal\\Migrations\\20241009004540_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:45:55.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarroAluguelConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\CarroAluguelConfiguration.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Dal\\Configurations\\CarroAluguelConfiguration.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\CarroAluguelConfiguration.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Dal\\Configurations\\CarroAluguelConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:21:19.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarroConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\CarroConfiguration.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Dal\\Configurations\\CarroConfiguration.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\CarroConfiguration.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Dal\\Configurations\\CarroConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBoAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:16:22.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CarroAluguel.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\CarroAluguel.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\CarroAluguel.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\CarroAluguel.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\CarroAluguel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAxAAAA",
+              "Title": "GetUserProfileByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdHandler.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdHandler.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdHandler.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:53:20.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Carro.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\Carro.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\Carro.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\Carro.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\Carro.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBcAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:50:33.283Z",
+              "WhenOpened": "2024-10-09T02:42:19.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IdentityUserTokenConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\IdentityUserTokenConfiguration.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Dal\\Configurations\\IdentityUserTokenConfiguration.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\Configurations\\IdentityUserTokenConfiguration.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Dal\\Configurations\\IdentityUserTokenConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Title": "GetUserProfileById.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:44:21.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\DataContext.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Dal\\DataContext.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Dal\\DataContext.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Dal\\DataContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:33:43.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StatusCarro.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\StatusCarro.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\StatusCarro.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\StatusCarro.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Aggregates\\CarroAggregate\\StatusCarro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:19:18.892Z",
+              "WhenOpened": "2024-10-09T02:39:41.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "GetAllUserProfilesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetAllUserProfilesQueryHandler.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetAllUserProfilesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetAllUserProfilesQueryHandler.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\QueryHandlers\\GetAllUserProfilesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T22:09:52.505Z",
+              "WhenOpened": "2024-10-09T02:34:03.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllUserProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetAllUserProfiles.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetAllUserProfiles.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetAllUserProfiles.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\Queries\\GetAllUserProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:32:40.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CarroValidator.cs",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Validators\\CarroValidators\\CarroValidator.cs",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Validators\\CarroValidators\\CarroValidator.cs",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Validators\\CarroValidators\\CarroValidator.cs",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Validators\\CarroValidators\\CarroValidator.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIA3wBgAAAA5AAAA",
+              "Title": "UserProfileMappings.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\MappingProfiles\\UserProfileMappings.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\MappingProfiles\\UserProfileMappings.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\MappingProfiles\\UserProfileMappings.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\MappingProfiles\\UserProfileMappings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:29:41.982Z",
+              "WhenOpened": "2024-10-09T02:24:33.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfileMap.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\MappingProfiles\\UserProfileMap.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\MappingProfiles\\UserProfileMap.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\MappingProfiles\\UserProfileMap.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\MappingProfiles\\UserProfileMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T02:10:26.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\appsettings.json",
-              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T21:21:23.575Z",
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\CommandHandlers\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\CommandHandlers\\CreateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\CommandHandlers\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\CommandHandlers\\CreateUserCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAArwBwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:52:35.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Commands\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Application\\UserProfiles\\Commands\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Application\\UserProfiles\\Commands\\CreateUserCommand.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Application\\UserProfiles\\Commands\\CreateUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:47:43.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\Controllers\\UserProfileController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:45:54.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProfileCreate.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Requests\\UserProfileCreate.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Requests\\UserProfileCreate.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Requests\\UserProfileCreate.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Requests\\UserProfileCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:39:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Responses\\UserProfileResponse.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Responses\\UserProfileResponse.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Responses\\UserProfileResponse.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\Contracts\\UserProfile\\Responses\\UserProfileResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:37:53.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Domain\\Aggregates\\UserProfileAggregate\\UserProfile.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:36:55.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TesteLocadoraDeCarros.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TesteLocadoraDeCarros\\TesteLocadoraDeCarros.Api\\Program.cs",
+              "RelativeToolTip": "TesteLocadoraDeCarros.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:27:19.347Z",
               "EditorCaption": ""
             }
           ]

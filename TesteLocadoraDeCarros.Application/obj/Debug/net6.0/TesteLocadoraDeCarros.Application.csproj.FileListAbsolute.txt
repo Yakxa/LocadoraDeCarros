@@ -13,3 +13,8 @@ C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Applicat
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.pdb
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLocadoraDeCarros.Application.genruntimeconfig.cache
 C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\ref\TesteLocadoraDeCarros.Application.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Dal.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.dll
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Dal.pdb
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\bin\Debug\net6.0\TesteLocadoraDeCarros.Domain.pdb
+C:\Users\guilh\source\repos\TesteLocadoraDeCarros\TesteLocadoraDeCarros.Application\obj\Debug\net6.0\TesteLoc.CC30023F.Up2Date
